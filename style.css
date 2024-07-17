@@ -1,0 +1,135 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.general-div {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 255, 255);
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #baffb4;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #baffb4;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    margin: 0px;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+#register-button {
+    height: 50px;
+    border-radius: 0px 6px 6px 0;
+    border: none;
+    background-color: #14ae5c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.form-table, .form-table th, .form-table td {
+    height: 40px;
+    padding: 4px;
+    border: 1px solid rgb(173, 172, 172);
+}
+
+.register-table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.register-table th, .register-table td {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgb(173, 172, 172);
+}
+
+.register-table th {
+    font-weight: bolder;
+}
+
+.register-table {
+    border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+
+.register-div {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.input-error {
+    background-color: rgb(244, 143, 143);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+}
+
+.save-button {
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    background-color: #14ae5c;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.save-button {
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    background-color: #14ae5c;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+      integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"
+      integrity="sha512-2/YdOMV+YNpanLCF5MdQwaoFRVbTmrJ4u4EpqS/USXAQNUDgI5uwYi6J98WVtJKcfe1AbgerygzDFToxAlOGEQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Controle Diário</title>
+  </head>
+  <body>
+    <div class="general-div">
+      <div class="header"><h2>Sistema de controle diário</h2></div>
+      <div class="content">
+        <div class="form" id="div-form">
+          <form action="">
+            <table class="form-table">
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Nome Completo"
+                    id="name"
+                  />
+                </td>
+                <td>
+                  <input type="text" required placeholder="CPF" id="cpf" />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Endereço"
+                    id="address"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Cód. atendimento"
+                    id="code"
+                  />
+                </td>
+              </tr>
+            </table>
+          </form>
+          <button id="register-button">Registrar</button>
+        </div>
+        <div class="input-error" id="input-error"></div>
+        <h1>Registros</h1>
+        <div class="register-div">
+          <table class="register-table" id="register-table">
+            <thead>
+              <tr>
+                <th>Nome Completo</th>
+                <th>CPF</th>
+                <th>Endereço</th>
+                <th>Cód. Atendimento</th>
+                <th>Editar</th>
+                <th>Excluir</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <button class="save-button" id="save-button">
+          Salvar registros em PDF
+        </button>
+      </div>
+      <div class="footer">Todos os direitos reservados.</div>
+    </div>
+    <script src="script.js"></script>
+    <script src="pdf_save.js"></script>
+  </body>
+</html>
