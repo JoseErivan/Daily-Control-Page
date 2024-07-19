@@ -1,5 +1,6 @@
 # Diary control
 - Diary control é um projeto que visa aumentar a minha experiência com programação e tecnologia, além de resolver um problema presente no meu trabalho atual.
+- Para acessar o site use o link: https://joseerivan.github.io/Daily-Control-Page/
 
 ## Começando o projeto:
 - Para iniciar o meu projeto, precisei primeiro ir a fundo no problema que quero resolver, para isso defini cada ponto que precisa de uma funcionalidade específica para ser resolvido.
